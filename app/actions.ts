@@ -25,7 +25,7 @@ export function handlePayment(state: any, formData: FormData) {
         // handle the error
         return;
       }
-      console.log("Payment Status: " + data.paymentStatus);
+      console.log("Payment Status: " + data);
     }
   );
 }
