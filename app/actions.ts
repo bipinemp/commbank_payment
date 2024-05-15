@@ -19,7 +19,7 @@ export function handlePayment(state: any, formData: FormData) {
       },
       currency: "USD",
     },
-    function (errData, data) {
+    function (errData: any, data: any) {
       if (errData) {
         console.error("Error Message: " + errData.data.error.message);
         // handle the error
